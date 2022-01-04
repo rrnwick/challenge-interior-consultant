@@ -74,6 +74,11 @@ select {
   --almostblack: #1e1e23;
   --black: #000000;
 }
+/* 
+font-family: 'Crimson Pro', serif;
+
+font-family: 'Montserrat', sans-serif; 
+*/
 
 /* Mobile First ***************************************************/
 
@@ -112,6 +117,10 @@ header {
 
 .logo a {
   color: var(--white);
+  font-family: "Crimson Pro", serif;
+  font-weight: 200;
+  font-size: 0.875rem;
+  line-height: 0.973rem;
   border: 2px var(--white) solid;
   padding: 8px 9px 7px 9px;
   text-decoration: none;
@@ -202,6 +211,10 @@ header {
 #menu li a {
   text-decoration: none;
   color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.371rem;
 }
 
 #menuToggle input:checked ~ ul {
