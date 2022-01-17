@@ -222,6 +222,34 @@ header {
   transform: none;
 }
 
+main {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: Lora;
+  color: var(--white);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.875rem;
+}
+
+.intro {
+  font-family: Montserrat;
+  color: var(--white);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.063rem;
+  width: 71%;
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
 /* Credit and link information at bottom */
 .createdBy {
   font-family: "Poppins", sans-serif;
