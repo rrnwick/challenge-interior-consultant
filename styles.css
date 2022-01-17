@@ -83,7 +83,8 @@ font-family: 'Montserrat', sans-serif;
 /* Mobile First ***************************************************/
 
 body {
-  background-color: var(--offwhite);
+  /* background-color: var(--offwhite); */
+  background-color: #596574; /*temp color */
   color: var(--black);
 }
 
