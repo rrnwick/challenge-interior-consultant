@@ -288,7 +288,31 @@ h2 {
 
 .designer-info img {
   width: 38px;
-  border-radius: 50%;
+  height: 38px;
+  border-radius: 100%;
+}
+
+.designer-details {
+  color: var(--white);
+  padding-left: 12px;
+}
+
+.designer-details a {
+  color: var(--white);
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.94rem;
+}
+
+.designer-details p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
 }
 
 /* Credit and link information at bottom */
