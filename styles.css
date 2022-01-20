@@ -353,3 +353,28 @@ h2 {
 }
 
 /****** End of Mobile First Styles **************************************************/
+
+@media (min-width: 900px) {
+  
+
+  .wrapper {
+    max-width: 1440px;
+  }
+
+  #menutoggle {
+    display: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #menu input {
+    display: none;
+  }
+
+  #menutoggle input:checked {
+    display: none;
+  }
+
+}
