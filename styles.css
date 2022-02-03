@@ -373,8 +373,18 @@ h2 {
     display: none;
   }
 
-  #menutoggle input:checked {
-    display: none;
+  header {
+    max-width: 1440px;
+    width: 95%;
+  }
+
+  main {
+    max-width: 1440px;
+    width: 95%;
+  }
+
+  .main-content {
+    display: flex;
   }
 
 }
