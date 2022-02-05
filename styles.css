@@ -115,7 +115,7 @@ header {
 }
 
 .logo {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .logo a {
@@ -130,7 +130,7 @@ header {
   text-transform: uppercase;
 }
 
-#menuToggle {
+#menu-toggle {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -142,7 +142,7 @@ header {
   user-select: none;
 }
 
-#menuToggle input {
+#menu-toggle input {
   display: flex;
   width: 40px;
   height: 32px;
@@ -152,7 +152,7 @@ header {
   z-index: 2;
 }
 
-#menuToggle span {
+#menu-toggle span {
   display: flex;
   width: 29px;
   height: 2px;
@@ -166,26 +166,30 @@ header {
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
-#menuToggle span:first-child {
+#menu-toggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2) {
+#menu-toggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span {
+#menu-toggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-3px, -1px);
   /* background: #36383f; */
 }
-#menuToggle input:checked ~ span:nth-last-child(3) {
+#menu-toggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2) {
+#menu-toggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu-toggle input:checked ~ ul {
+  transform: none;
 }
 
 #menu {
@@ -220,9 +224,6 @@ header {
   line-height: 1.371rem;
 }
 
-#menuToggle input:checked ~ ul {
-  transform: none;
-}
 
 main {
   max-width: 350px;
@@ -361,7 +362,7 @@ h2 {
     max-width: 1440px;
   }
 
-  #menutoggle {
+  #menu-toggle {
     display: none;
   }
 
