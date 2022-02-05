@@ -105,14 +105,14 @@ body {
   margin: 0 auto;
 }
 
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   max-width: 350px;
   margin: 0 auto;
   background-color: var(--almostblack);
   height: 85px;
-}
+} */
 
 .logo {
   margin-top: 25px;
@@ -352,6 +352,49 @@ h2 {
   text-decoration: underline;
 }
 
+/******* experimental nav styles *************/
+
+header {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  max-width: 350px;
+  width: 100%;
+  /* margin: 0 auto; */
+  background-color: var(--almostblack);
+  background-color: violet;
+  height: 85px;
+  position: fixed;
+  z-index: 5;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.logo a {
+  color: var(--white);
+  font-family: "Crimson Pro", serif;
+  font-weight: 200;
+  font-size: 0.875rem;
+  line-height: 0.973rem;
+  border: 2px var(--white) solid;
+  padding: 8px 9px 7px 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 25px;
+  /* left: 0px; */
+  /* right: 12.75px; */
+  z-index: 20;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 /****** End of Mobile First Styles **************************************************/
 
 @media (min-width: 900px) {
@@ -366,10 +409,10 @@ h2 {
   }
 
   
-  header {
+  /* header {
     max-width: 1440px;
     width: 95%;
-  }
+  } */
  
 
   nav {
