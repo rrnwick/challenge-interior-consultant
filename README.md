@@ -40,5 +40,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
 
-- GitHub [@robrcodes](https://{github.com/robrcodes})
-- Twitter [@robrcodes](https://{twitter.com/robrcodes})
+- GitHub [@rrnwick](https://{github.com/rrnwick})
