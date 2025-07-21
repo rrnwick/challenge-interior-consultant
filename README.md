@@ -6,11 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://rrnwick.github.io/challenge-interior-consultant/">
       Solution
     </a>
     <span> | </span>
@@ -40,4 +36,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
 
-- GitHub [@rrnwick](https://{github.com/rrnwick})
+- GitHub [@rrnwick](https://github.com/rrnwick)
