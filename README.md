@@ -1,6 +1,6 @@
 <h1 align="center">Challenge - Interior Consultant</h1>
 
-==NOTE==: As of 2025 the devchallenges.io links no longer work as they have removed or altered the content on the site. My solution preview still works.
+**NOTE**: As of 2025 the devchallenges.io links no longer work as they have removed or altered the content on the site. My solution preview still works.
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
